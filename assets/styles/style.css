@@ -47,7 +47,7 @@
         
         .hero {
             height: 80vh;
-            background: linear-gradient(rgba(16, 97, 0, 0.824), rgb(2, 56, 4)), url('../assets/images/independence_ark.jpg') center/cover no-repeat;
+            background: linear-gradient(rgba(16, 97, 0, 0.824), rgb(2, 56, 4)), url('/assets/images/independence_ark.jpg') center/cover no-repeat;
             color: white;
             display: flex;
             flex-direction: column;
