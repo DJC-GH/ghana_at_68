@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ghana 68th Independence Day</title>
-    <style>
         :root {
             --ghana-red: #ce1126;
             --ghana-gold: #fcd116;
@@ -54,7 +47,7 @@
         
         .hero {
             height: 80vh;
-            background: linear-gradient(rgba(16, 97, 0, 0.824), rgb(2, 56, 4)), url('independence_ark1.jpg') center/cover no-repeat;
+            background: linear-gradient(rgba(16, 97, 0, 0.824), rgb(2, 56, 4)), url('/assets/images/independence_ark.jpg') center/cover no-repeat;
             color: white;
             display: flex;
             flex-direction: column;
@@ -344,112 +337,3 @@
             font-size: 1rem;
             margin: 10px;
         }
-    </style>
-</head>
-<body>
-    <div class="flag-header">
-        <div class="flag-stripe red"></div>
-        <div class="flag-stripe gold"></div>
-        <div class="flag-stripe green"></div>
-    </div>
-
-    <section class="hero">
-        <div class="black-star pulse"></div>
-        <h1>GHANA AT 68</h1>
-        <p class="display-date">6th March 2025</p>
-        <p>Celebrating 68 Years of Independence, Freedom and Justice</p>
-
-        <div class="bio">
-        <h3>Developed by</h3>
-        <h2>Daniel Chentiwuni Joshua</h2>
-
-            <a href="https://github.com/djc-gh" target="_blank"><img class="logo" src="github.png" alt="github" srcset=""> </a> 
-            <a href="https://www.facebook.com/TheDanielChentiwuni" target="_blank"><img class="logo" src="facebook.png" alt="facebook" srcset=""></a>
-            <a href="https://www.linkedin.com/in/djc-gh/" target="_blank"><img class="logo" src="linkedin.png" alt="linkedin" srcset=""></a>
-        </div>
-
-    </section>
-
-    <div class="kente-border"></div>
-
-    <section class="content">
-        <h2 class="section-title">Our Proud Heritage</h2>
-        <p>Ghana, the first sub-Saharan African nation to achieve independence from colonial rule on March 6, 1957, celebrates 68 years of freedom. Under the leadership of Dr. Kwame Nkrumah, Ghana blazed the trail for African liberation and has since been a beacon of democracy, peace, and cultural richness in the region.</p>
-
-        <div class="card-container">
-            <div class="card">
-                <div class="card-img">Cultural Heritage</div>
-                <div class="card-content">
-                    <h3 class="card-title">Rich Traditions</h3>
-                    <p>From the colorful kente cloth to the rhythmic beats of traditional drums, Ghana's cultural heritage continues to thrive and inspire generations across the world.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-img">Economic Growth</div>
-                <div class="card-content">
-                    <h3 class="card-title">Development & Progress</h3>
-                    <p>Ghana's diverse economy built on gold, cocoa, oil, and technology innovations has positioned it as one of Africa's fastest-growing economies in recent decades.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-img">Unity in Diversity</div>
-                <div class="card-content">
-                    <h3 class="card-title">One People, One Nation</h3>
-                    <p>With over 50 ethnic groups living together in harmony, Ghana exemplifies how diversity can be a strength rather than a divide.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="kente-border"></div>
-
-    <section class="content">
-        <h2 class="section-title">Journey Through Time</h2>
-        <div class="timeline">
-            <div class="timeline-item left">
-                <div class="timeline-content">
-                    <h3>1957</h3>
-                    <p>Ghana gains independence from British colonial rule under the leadership of Dr. Kwame Nkrumah.</p>
-                </div>
-            </div>
-            <div class="timeline-item right">
-                <div class="timeline-content">
-                    <h3>1960</h3>
-                    <p>Ghana becomes a republic with Nkrumah as its first president.</p>
-                </div>
-            </div>
-            <div class="timeline-item left">
-                <div class="timeline-content">
-                    <h3>1992</h3>
-                    <p>Return to multi-party democracy with the adoption of the Fourth Republican Constitution.</p>
-                </div>
-            </div>
-            <div class="timeline-item right">
-                <div class="timeline-content">
-                    <h3>2007</h3>
-                    <p>Ghana celebrates its Golden Jubilee, marking 50 years of independence.</p>
-                </div>
-            </div>
-            <div class="timeline-item left">
-                <div class="timeline-content">
-                    <h3>2025</h3>
-                    <p>Ghana celebrates 68 years of independence with renewed commitment to growth and development.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="kente-border"></div>
-
-    <section class="cta">
-        <h2>Join the Celebration</h2>
-        <p>Be part of Ghana's vibrant independence day celebrations across the nation.</p>
-        <a href="#" class="button">Learn More</a>
-    </section>
-
-    <footer>
-        <p>Developed with pride for Ghana's 68th Independence Day Celebration</p>
-        <p>© 2025 | Freedom and Justice</p>
-    </footer>
-</body>
-</html>
